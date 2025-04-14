@@ -1,0 +1,11 @@
+DirectoryIndex home.php
+
+# Enable URL rewriting
+RewriteEngine On
+RewriteBase /feedback/
+
+# Handle 404 errors
+ErrorDocument 404 /feedback/home.php
+
+# Prevent directory listings
+Options -Indexes
